@@ -39,12 +39,13 @@ video{
 
 
 
-.logotext h2{
+.logotext h3{
     @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
     font-family: 'Jeju Gothic', sans-serif;
-    font-size: 6em;
+    font-size: 2em;
     text-align: justify;
-    color: white;
+    color:darkblue;
+    display:flex;
     z-index: 1;
     mix-blend-mode: overlay;
 }
@@ -62,4 +63,11 @@ video{
 
 .li {
     line-height:50%
+}
+.image
+{
+    height: 100vh;
+    background-image: url('dankook.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
