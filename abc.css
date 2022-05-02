@@ -21,10 +21,22 @@
     color:black;
     display:flex;
     z-index: 1;
+    margin: 30px;
 }
 .logotext{
     height: 30vh;
     display: flex;
     align-items: center;
     justify-content: default;
+}
+.li {
+    line-height:100%
+}
+a
+{
+    text-decoration: none;
+}
+.center
+{
+    text-align: center;
 }
